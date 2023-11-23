@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower&disp=swap");
+
+*{
+    padding: 0 ;
+    margin: 0 ;
+}
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("nay-qkata\ gora.jpg");
+    background-size: cover;
+}
+nav {
+    height: 10vh;
+    background-color: rgba(204, 193, 193, 0.616);
+}
+nav ul li{
+    display:inline-block ;
+    font-size: 2rem;
+    line-height: 10vh;
+    width: 150px;
+    color: rgb(83, 14, 33);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+nav ul li:hover{
+    color: black;
+    background-color: rgba(#7c7a7a);
+}
+nav ul{
+    float: right;
+    margin-right: 10vw;
+}
+.title{
+    width: 50vw;
+    height:30vh;
+    text-align: center;
+    color: #a89c9c;
+    margin: auto;
+    font-family: Indie Flower; 
+    margin-top: 20vh;
+    text-shadow: 4px 3px 3px black; 
+      
+}
+.first{
+    font-size: 8rem;
+    font-weight: bold;
+}
+
+.second{
+    font-size: 5rem;
+    font-style: italic;
+}
